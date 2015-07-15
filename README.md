@@ -1,2 +1,2 @@
 # CotacaoBTC
-Cotação de BTC de exchanges brasileiras
+Valor para compra do BTC das exchanges brasileiras usando a API do bitvalor.com para ter acesso às informações da última cotação de cada exchange.

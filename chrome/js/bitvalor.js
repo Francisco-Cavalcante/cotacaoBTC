@@ -155,7 +155,7 @@ readTicker();
 
 	window.onload = function(){
 		$(function() {
-			
+			//Evento onclick do href na legenda das exchanges no popup.html
 			 $("li").on("click",function() {
 				switch(this.id) {
 					case 'B2U':
@@ -185,6 +185,11 @@ readTicker();
 					default:
 						break;
 				}
+			});
+			
+			//Evento onclick do href da versão no popup.html
+			$("#version").on("click",function() {
+				window.open('https://github.com/ch1c4um/cotacaoBTC');
 			});
 			
 		}); // End Function()

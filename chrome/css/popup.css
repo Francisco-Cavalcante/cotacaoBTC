@@ -1,0 +1,67 @@
+ html {
+	height: 560px;
+}
+body {
+	height: 100px;
+}
+body, h2, h4 {
+	font-family: 'Signika', sans-serif;
+}
+#onestep {
+	background-color: #888;
+	border: 2px solid black;
+	padding: 5px;
+	text-align: left;
+}
+body {
+	margin: 10px;
+	text-align: center;
+	min-width: 250px;
+	min-height: 100px;
+	font-family: 'Signika', sans-serif;
+	color: white;
+	background: -webkit-gradient(linear, center bottom, center top, from(#eee),to(#fff));
+}
+h2 {
+	font-size: 22px;
+	color: black;
+	margin-bottom: 15px;
+}
+h4 {
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+h5 {
+	font-size: 16px;
+	color: black;
+	margin-bottom: 5px;
+	text-align: left;
+}
+h7 {
+	font-size: 8px;
+	color: black;
+}
+ul li {
+	display: block;
+	height: 2em;    
+	line-height: 12px;
+	color: black;
+	vertical-align: left;
+	text-align: left;
+}
+ul li a { 
+	display: block;
+	text-decoration:none; 
+	color:#000000; 
+	cursor:auto;
+	}
+ul {
+	display: block;
+	list-style-type: none;
+	padding: 0px;
+	width: 200px;
+	margin: 0 auto;
+	text-align: left;
+}

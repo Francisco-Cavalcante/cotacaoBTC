@@ -1,17 +1,14 @@
-/*!
- * jQuery JavaScript Library v1.10.2
- * http://jquery.com/
+/*
+ * CotacaoBTC 1.1
+ * https://github.com/ch1c4um/cotacaoBTC
  *
- * Includes Sizzle.js
- * http://sizzlejs.com/
+ * Copyright 2015, Francisco Cavalcante
+ * https://blueimp.net
  *
- * Copyright 2005, 2013 jQuery Foundation, Inc. and other contributors
- * Released under the MIT license
- * http://jquery.org/license
- *
- * Date: 2013-07-03T13:48Z
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
  */
- 
+
 // Variaveis Globais
 var value = 0.0;
 var response = "";
@@ -144,8 +141,8 @@ chrome.runtime.onMessage.addListener(
 	}
 );
 
-// Cria um alarme para atualizar a cada 1 minuto.
-chrome.alarms.create('refresh', {periodInMinutes: 1.0});
+// Cria um gatilho para atualizar a cada 5 minutos.
+chrome.alarms.create('refresh', {periodInMinutes: 5.0});
 chrome.alarms.onAlarm.addListener(onAlarm);
 
 // Lê o ticker.

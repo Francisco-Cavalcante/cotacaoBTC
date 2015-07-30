@@ -3,7 +3,6 @@
  * https://github.com/ch1c4um/cotacaoBTC
  *
  * Copyright 2015, Francisco Cavalcante
- * https://blueimp.net
  *
  * Licensed under the MIT license:
  * http://www.opensource.org/licenses/MIT
